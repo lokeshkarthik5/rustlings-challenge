@@ -14,7 +14,23 @@
 
 fn main() {
     // You can optionally experiment here.
+
+ 
 }
+
+fn calculate_price_of_apples(apple: i32) -> i32 {
+
+    let mut base:i32 = 2;
+
+    if apple > 40 {
+        base = 1;
+        base * apple
+    }else{
+        
+        base * apple
+    }
+
+}  
 
 // Don't change the tests!
 #[cfg(test)]
